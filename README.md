@@ -6,24 +6,21 @@ AI の自然言語処理技術を活用し、ビジネスメールの文章を�
 短時間で適切なビジネスメールを作成することを目的として開発しました。  
 
 主な機能
+
 ・送信された文章を AI により自動添削
+
 ・文法修正だけでなく、ビジネスメール形式へ整形
+
 ・LINE 上で結果返答
 
 ---
 
-使用技術 / 開発環境
+<img width="365" height="270" alt="image" src="https://github.com/user-attachments/assets/a14126a5-0640-486a-9aa7-5d182808fb13" />
 
-| 項目 | 内容 |
-| 言語 | Python 3.12.5 |
-| フレームワーク | Flask 3.0.3 |
-| API | OpenAI 1.41.0 |
-| LINE連携 | line-bot-sdk 3.11.0 |
-| サーバー | ngrok |
-| 環境変数管理 | python-dotenv 1.0.1 |
-| プラットフォーム | LINEアプリ |
 
 フォルダ構成
+
+
 <img width="458" height="303" alt="image" src="https://github.com/user-attachments/assets/71cc3227-c2b3-4c4f-aaf5-e346807f96ce" />
 
 ※".env" や "ngrok.exe" は含まれていません。
@@ -40,8 +37,10 @@ AI の自然言語処理技術を活用し、ビジネスメールの文章を�
 
 #ChatGPT のAPI key
 CHATGPT_API_KEY=xxxx
+
 #LINE公式アカウントのチャンネルシークレット
 LINE_CHANNEL_SECRET=xxxx
+
 #LINE公式アカウントのアクセストークン
 LINE_CHANNEL_ACCESS_TOKEN=xxxx
 
