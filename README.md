@@ -57,7 +57,7 @@ ngrok http --domain=固定ドメイン.ngrok-free.app 3000
 
 ---
 
-動作イメージ
+動作イメージ(LINEでの実際のチャット画面)
 
 
 <img width="477" height="1005" alt="image" src="https://github.com/user-attachments/assets/a31d0eef-ea5d-4816-b55c-f83d6d9a1b86" />
