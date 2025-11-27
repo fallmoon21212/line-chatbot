@@ -45,13 +45,13 @@ LINE_CHANNEL_SECRET=xxxx
 LINE_CHANNEL_ACCESS_TOKEN=xxxx
 
 
-3. 必要ライブラリをインストール
+3. 必要ライブラリと"ngrok.exe"のインストール
 
 pip install flask python-dotenv openai line-bot-sdk
 
 4. main.pyを起動
 
-5. ngrok 起動
+5. ngrok.exe 起動
 
 ngrok http --domain=固定ドメイン.ngrok-free.app 3000
 
