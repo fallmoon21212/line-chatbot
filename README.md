@@ -38,11 +38,11 @@ AI の自然言語処理技術を活用し、ビジネスメールの文章を�
 
 2. ".env"を作成し、以下のように設定します（APIキーなど実際の値は非公開）
 
-# ChatGPT のAPI key
+#ChatGPT のAPI key
 CHATGPT_API_KEY=xxxx
-# LINE公式アカウントのチャンネルシークレット
+#LINE公式アカウントのチャンネルシークレット
 LINE_CHANNEL_SECRET=xxxx
-# LINE公式アカウントのアクセストークン
+#LINE公式アカウントのアクセストークン
 LINE_CHANNEL_ACCESS_TOKEN=xxxx
 
 
