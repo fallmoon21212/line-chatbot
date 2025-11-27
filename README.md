@@ -36,7 +36,7 @@ AI の自然言語処理技術を活用し、ビジネスメールの文章を�
    ・チャネルシークレット（LINE_CHANNEL_SECRET）
    ・チャネルアクセストークン（LINE_CHANNEL_ACCESS_TOKEN）
 
-2. ".env"を作成し、以下のように設定します（APIキーなど実際の値は非公開）：
+2. ".env"を作成し、以下のように設定します（APIキーなど実際の値は非公開）
 
 # ChatGPT のAPI key
 CHATGPT_API_KEY=xxxx
@@ -59,6 +59,8 @@ ngrok http --domain=固定ドメイン.ngrok-free.app 3000
 ---
 
 動作イメージ
+
+
 <img width="477" height="1005" alt="image" src="https://github.com/user-attachments/assets/a31d0eef-ea5d-4816-b55c-f83d6d9a1b86" />
 
 
