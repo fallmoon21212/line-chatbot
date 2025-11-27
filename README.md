@@ -2,7 +2,9 @@ LINEチャットボット（ビジネスメール添削）
 
 
 AI の自然言語処理技術を活用し、ビジネスメールの文章を添削する LINE チャットボットです。  
+
 ユーザーが LINE 上で文章を送信すると、文法や敬語表現を自動修正して返答します。  
+
 短時間で適切なビジネスメールを作成することを目的として開発しました。  
 
 主な機能
@@ -30,18 +32,23 @@ AI の自然言語処理技術を活用し、ビジネスメールの文章を�
 実行方法（概要）
 
 1. LINE Developers にてチャネルを作成し、以下を取得
+
    ・チャネルシークレット（LINE_CHANNEL_SECRET）
+
    ・チャネルアクセストークン（LINE_CHANNEL_ACCESS_TOKEN）
 
-2. ".env"を作成し、以下のように設定します（APIキーなど実際の値は非公開）
+3. ".env"を作成し、以下のように設定します（APIキーなど実際の値は非公開）
 
 #ChatGPT のAPI key
+
 CHATGPT_API_KEY=xxxx
 
 #LINE公式アカウントのチャンネルシークレット
+
 LINE_CHANNEL_SECRET=xxxx
 
 #LINE公式アカウントのアクセストークン
+
 LINE_CHANNEL_ACCESS_TOKEN=xxxx
 
 
